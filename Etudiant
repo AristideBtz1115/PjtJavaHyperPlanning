@@ -1,0 +1,36 @@
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package controleurv1;
+
+/**
+ *
+ * @author arist
+ */
+public class Etudiant extends Utilisateur{
+    protected String groupe;
+    protected String promotion;
+    protected int numero;
+    public Etudiant (){};
+    
+    public Etudiant(int ID,String MotDePasse,String promotion,int numero)
+    {
+        this.ID = ID;
+        this.MotDePasse = MotDePasse;
+        this.promotion = promotion;
+        this.numero = numero;
+    }
+    
+    public void AfficherEmploiDuTemps()
+    {
+        System.out.println("entrée dans l'emploi du temps : Etudiant");
+    }
+   // méthode test affichage infos étudiant
+    public void AfficherInfoEtudiant(){
+        System.out.println("l'id est : " + ID);
+        System.out.println("le mot de passe est : " + MotDePasse);
+        System.out.println("la promotion est : " + promotion);
+        System.out.println("le numéro  est : " + numero);
+    }
+    
+}
