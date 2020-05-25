@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package controleurv1;
+//import autre.*;
+
+/**
+ *
+ * @author arist
+ */
+public class ControleurV1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String promotion = "ing3";
+        String mdp ="dgdgdgd";
+        int id = 1233;
+        int numero =1;
+        Etudiant Etu = new Etudiant(id,mdp,promotion,numero);
+        Etudiant Etu2 = new Etudiant();
+        Etu.AfficherInfoEtudiant();
+        Etu.initialisation();
+        Enseignant En = new Enseignant();
+        ReferentPedagogique REF = new ReferentPedagogique();
+        //mainJDBC connexion_bdd = new mainJDBC();
+        //connexion_bdd.connecterDB();
+            }
+    
+}
