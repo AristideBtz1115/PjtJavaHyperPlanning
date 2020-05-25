@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package controleurv1;
+
+/**
+ *
+ * @author arist
+ */
+public class Administrateur {
+    protected int num_Admin;
+    
+    public Administrateur(){};
+    public void AfficherEmploiDuTemps()
+    {
+        System.out.println("entrée dans l'emploi du temps : Administrateur");
+    }
+    public void ModifierEmploiDuTemps()
+    {
+        System.out.println("entrée dans la modification de l'emploi du temps : Administrateur");
+    }
+    public void VerifierModifierEmploiDuTemps()
+    {
+        System.out.println("entrée dans la vérification des modifications : Administrateur");
+    }
+    public void AfficherStat(){
+        System.out.println("affichage des statistiques imminent ");
+    }
+}
