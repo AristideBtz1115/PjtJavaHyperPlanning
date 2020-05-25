@@ -1,0 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package controleurv1;
+
+/**
+ *
+ * @author arist
+ */
+public class ReferentPedagogique {
+    protected String cours;
+    protected int num_referent;
+    
+    public ReferentPedagogique(){};
+    public void AfficherEmploiDuTemps()
+    {
+        System.out.println("entrée dans l'emploi du temps : ReferentPedagogique");
+    }
+    public void RecapitulatifCours(){
+        System.out.println("entrée dans le récapitualtif des cours");
+    }
+}
